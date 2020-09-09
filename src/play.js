@@ -6,6 +6,7 @@ for (let i = 0, l = sounds.length; l > i; i++) {
   const audio = new Audio(src);
 
   sounds[i].addEventListener('click', () => {
+    audio.currentTime = 0;
     audio.play();
   });
 }
