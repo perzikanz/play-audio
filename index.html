@@ -4,8 +4,328 @@
     <meta charset="utf-8" />
     <title>play audio</title>
     <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/piano.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="keyboad">
+      <svg width="2900" height="450">
+        <g>
+          <path
+            d="M 50,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="c2"
+          />
+          <path
+            d="M 100,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="cs2"
+          />
+          <path
+            d="M 150,25 V 250 h -20 V 430 h 80 V 250 h -20 V 25 Z"
+            class="white"
+            id="d2"
+          />
+          <path
+            d="M 190,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="ds2"
+          />
+          <path
+            d="M 240,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="e2"
+          />
+          <path
+            d="M 290,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="f2"
+          />
+          <path
+            d="M 340,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="fs2"
+          />
+          <path
+            d="M 390,25 V 250 h -20 V 430 h 80 V 250 h -25 V 25 Z"
+            class="white"
+            id="g2"
+          />
+          <path
+            d="M 425,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="gs2"
+          />
+          <path
+            d="M 475,25 V 250 h -25 V 430 h 80 V 250 h -20 V 25 Z "
+            id="a2"
+            class="white"
+          />
+          <path
+            d="M 510,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="as2"
+          />
+          <path
+            d="M 560,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="b2"
+          />
+        </g>
+
+        <g>
+          <path
+            d="M 610,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="c3"
+          />
+          <path
+            d="M 660,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="cs3"
+          />
+          <path
+            d="M 710,25 V 250 h -20 V 430 h 80 V 250 h -20 V 25 Z"
+            class="white"
+            id="d3"
+          />
+          <path
+            d="M 750,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="ds3"
+          />
+          <path
+            d="M 800,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="e3"
+          />
+          <path
+            d="M 850,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="f3"
+          />
+          <path
+            d="M 900,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="fs3"
+          />
+          <path
+            d="M 950,25 V 250 h -20 V 430 h 80 V 250 h -25 V 25 Z"
+            class="white"
+            id="g3"
+          />
+          <path
+            d="M 985,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="gs3"
+          />
+          <path
+            d="M 1035,25 V 250 h -25 V 430 h 80 V 250 h -20 V 25 Z "
+            class="white"
+            id="a3"
+          />
+          <path
+            d="M 1070,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="as3"
+          />
+          <path
+            d="M 1120,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="b3"
+          />
+        </g>
+
+        <g>
+          <path
+            d="M 1170,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="c4"
+          />
+          <path
+            d="M 1220,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="cs4"
+          />
+          <path
+            d="M 1270,25 V 250 h -20 V 430 h 80 V 250 h -20 V 25 Z"
+            class="white"
+            id="d4"
+          />
+          <path
+            d="M 1310,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="ds4"
+          />
+          <path
+            d="M 1360,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="e4"
+          />
+          <path
+            d="M 1410,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="f4"
+          />
+          <path
+            d="M 1460,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="fs4"
+          />
+          <path
+            d="M 1510,25 V 250 h -20 V 430 h 80 V 250 h -25 V 25 Z"
+            class="white"
+            id="g4"
+          />
+          <path
+            d="M 1545,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="gs4"
+          />
+          <path
+            d="M 1595,25 V 250 h -25 V 430 h 80 V 250 h -20 V 25 Z "
+            class="white"
+            id="a4"
+          />
+          <path
+            d="M 1630,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="as4"
+          />
+          <path
+            d="M 1680,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="b4"
+          />
+        </g>
+
+        <g>
+          <path
+            d="M 1730,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="c5"
+          />
+          <path
+            d="M 1780,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="cs5"
+          />
+          <path
+            d="M 1830,25 V 250 h -20 V 430 h 80 V 250 h -20 V 25 Z"
+            class="white"
+            id="d5"
+          />
+          <path
+            d="M 1870,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="ds5"
+          />
+          <path
+            d="M 1920,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="e5"
+          />
+          <path
+            d="M 1970,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="f5"
+          />
+          <path
+            d="M 2020,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="fs5"
+          />
+          <path
+            d="M 2070,25 V 250 h -20 V 430 h 80 V 250 h -25 V 25 Z"
+            class="white"
+            id="g5"
+          />
+          <path
+            d="M 2105,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="gs5"
+          />
+          <path
+            d="M 2155,25 V 250 h -25 V 430 h 80 V 250 h -20 V 25 Z "
+            class="white"
+            id="a5"
+          />
+          <path
+            d="M 2190,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="as5"
+          />
+          <path
+            d="M 2240,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="b5"
+          />
+        </g>
+
+        <g>
+          <path
+            d="M 2290,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="c6"
+          />
+          <path
+            d="M 2340,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="cs6"
+          />
+          <path
+            d="M 2390,25 V 250 h -20 V 430 h 80 V 250 h -20 V 25 Z"
+            class="white"
+            id="d6"
+          />
+          <path
+            d="M 2430,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="ds6"
+          />
+          <path
+            d="M 2480,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="e6"
+          />
+          <path
+            d="M 2530,25 V 430 h 80 V 250 h -30 V 25 Z"
+            class="white"
+            id="f6"
+          />
+          <path
+            d="M 2580,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="fs6"
+          />
+          <path
+            d="M 2630,25 V 250 h -20 V 430 h 80 V 250 h -25 V 25 Z"
+            class="white"
+            id="g6"
+          />
+          <path
+            d="M 2665,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="gs6"
+          />
+          <path
+            d="M 2715,25 V 250 h -25 V 430 h 80 V 250 h -20 V 25 Z "
+            class="white"
+            id="a6"
+          />
+          <path
+            d="M 2750,25 V 250 h 50 V 25 Z"
+            class="black"
+            id="as6"
+          />
+          <path
+            d="M 2800,25 V 250 h -30 V 430 h 80 V 25 Z"
+            class="white"
+            id="b6"
+          />
+        </g>
+      </svg>
+    </div>
+
     <button class="sounds" data-file="greeting-01">おはよう</button>
     <button class="sounds" data-file="greeting-02">こんにちは</button>
     <button class="sounds" data-file="greeting-03">こんばんは</button>
