@@ -5,7 +5,6 @@
 
 .white {
   fill: #fff;
-  fill-opacity: 0.7;
   stroke: #000;
   stroke-width: 1px;
   stroke-linecap: butt;
@@ -13,7 +12,7 @@
 }
 
 .white:hover {
-  fill: #ccc;
+  fill: #eee;
 }
 
 .black {
@@ -29,7 +28,9 @@
 }
 
 .text {
-  fill: #000;
+  fill: #444;
   font-size: 30px;
   font-weight: bold;
+  pointer-events: none;
+  user-select: none;
 }
